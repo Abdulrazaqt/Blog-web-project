@@ -1,0 +1,121 @@
+* {
+    font-family: cairo;
+}
+.footer {
+    background-color: #2b2d42;
+    padding-top: 10px;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #2b2d42;
+    padding-top: 10px;
+    height: 60px;
+    box-shadow: 0px 4px 5px grey;
+}
+
+.font {
+    color: #ffffff;
+}
+
+.font a:hover {
+    color: #ffffff;
+}
+
+.maintext {
+    font-size: 20pt;
+    padding-top: 40%;
+    color: #2b2d42;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 20pt;
+    color: #2b2d42;
+    text-align: center;
+}
+
+.pageheigh {
+    height: 100%;
+    /* margin-bottom: 0; */
+}
+
+.bat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    background-color: #2b2d42;
+    border: 2px solid #2b2d42;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 15rem;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #484b6d;
+    color: #ffffff;
+}
+
+.footertext {
+    color: white;
+    text-decoration: none;
+}
+
+.newsletternbutton {
+    background-color: #2b2d42;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 60%;
+    height: 40px;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 50px;
+}
+
+.newsletternbutton:hover {
+    background-color: #ffffff;
+    color: #2b2d42;
+}
+
+.footertextbox {
+    width: 150%;
+}
+
+.imag-container {
+    position: relative;
+}
+
+.imag-container img {
+    width: 75rem;
+    height: 52rem;
+}
+li a {
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color: #222333;
+    border-radius: 10px;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+
+.log {
+    padding-right: 10px;
+}
+
+.disabled {
+    --bs-nav-link-disabled-color: black;
+}
